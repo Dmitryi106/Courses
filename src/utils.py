@@ -17,4 +17,4 @@ def load_data_from_json(Product):
             categories.append(category)
         return categories
 loaded = load_data_from_json(Product)
-print(loaded[1].products[0]['name'])
+#print(loaded[1].products[0]['name'])
